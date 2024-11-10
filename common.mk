@@ -169,8 +169,7 @@ TARGET_FS_CONFIG_GEN += $(QCOM_COMMON_PATH)/config.fs
 
 # GPS
 PRODUCT_PACKAGES += \
-    libcurl \
-    libcurl.vendor
+    libcurl
 
 # Media
 TARGET_DYNAMIC_64_32_MEDIASERVER := true
@@ -207,15 +206,6 @@ PRODUCT_PACKAGES += \
 # Vendor Service Manager
 PRODUCT_PACKAGES += \
     vndservicemanager
-
-# VNDK
-PRODUCT_PACKAGES += \
-    libexif.vendor \
-    libjsoncpp.vendor \
-    libpng.vendor \
-    libsqlite.vendor \
-    libutils.vendor \
-    libutilscallstack.vendor
 
 # SoC
 PRODUCT_VENDOR_PROPERTIES += \
